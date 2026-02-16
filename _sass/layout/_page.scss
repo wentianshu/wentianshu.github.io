@@ -50,6 +50,39 @@
 
 .page__content {
 
+  /* Two-column row for about page (e.g. Interests + Education) */
+  .about__two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    margin: 2em 0;
+    @include breakpoint($medium) {
+      gap: 3em;
+    }
+    @media (max-width: 600px) {
+      grid-template-columns: 1fr;
+    }
+    .about__two-col__item h2 {
+      margin-top: 0;
+    }
+  }
+
+  .edu-venue {
+    color: var(--global-text-color);
+    opacity: 0.7;
+    font-size: 0.95em;
+  }
+
+  .edu-degree-nowrap {
+    white-space: nowrap;
+  }
+
+  .about__section-sep {
+    margin: 2.5em 0;
+    border: 0;
+    border-top: 1px solid var(--global-border-color);
+  }
+
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid var(--global-border-color);

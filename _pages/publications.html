@@ -11,9 +11,53 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
+{% comment %} Use three separate data files: journal, conference proceedings, workshop. Fall back to single file or collection. {% endcomment %}
+{% assign use_three_files = false %}
+{% if site.data.publications_journal %}{% if site.data.publications_journal.size > 0 %}{% assign use_three_files = true %}{% endif %}{% endif %}
+{% if site.data.publications_conference_proceedings %}{% if site.data.publications_conference_proceedings.size > 0 %}{% assign use_three_files = true %}{% endif %}{% endif %}
+{% if site.data.publications_workshop %}{% if site.data.publications_workshop.size > 0 %}{% assign use_three_files = true %}{% endif %}{% endif %}
+{% if use_three_files %}
+  {% if site.data.publications_journal and site.data.publications_journal.size > 0 %}
+    <h2>Journal Articles</h2><hr />
+    {% for pub in site.data.publications_journal %}
+      {% include archive-single-publication.html %}
+    {% endfor %}
+  {% endif %}
+  {% if site.data.publications_conference_proceedings and site.data.publications_conference_proceedings.size > 0 %}
+    <h2>Conference Proceedings</h2><hr />
+    {% for pub in site.data.publications_conference_proceedings %}
+      {% include archive-single-publication.html %}
+    {% endfor %}
+  {% endif %}
+  {% if site.data.publications_workshop and site.data.publications_workshop.size > 0 %}
+    <h2>Workshop Papers</h2><hr />
+    {% for pub in site.data.publications_workshop %}
+      {% include archive-single-publication.html %}
+    {% endfor %}
+  {% endif %}
+{% elsif site.data.publications %}
+  {% assign sorted_pubs = site.data.publications | sort: "date" | reverse %}
+  {% if site.publication_category %}
+    {% for category in site.publication_category %}
+      {% assign title_shown = false %}
+      {% for pub in sorted_pubs %}
+        {% if pub.category != category[0] %}
+          {% continue %}
+        {% endif %}
+        {% unless title_shown %}
+          <h2>{{ category[1].title }}</h2><hr />
+          {% assign title_shown = true %}
+        {% endunless %}
+        {% include archive-single-publication.html %}
+      {% endfor %}
+    {% endfor %}
+  {% else %}
+    {% for pub in sorted_pubs %}
+      {% include archive-single-publication.html %}
+    {% endfor %}
+  {% endif %}
+{% elsif site.publication_category %}
+  {% for category in site.publication_category %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}

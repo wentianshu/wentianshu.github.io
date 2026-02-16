@@ -11,5 +11,9 @@
     ],
     "workspaceFolder": "/usr/src/app",
     "remoteUser": "vscode",
-    "forwardPorts": [4000] // Add port forwarding
+    "forwardPorts": [4000], // Add port forwarding
+
+    "containerEnv": {
+    "SHELL": "/bin/bash"
+    }
 }

@@ -5,11 +5,11 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
-
+# localhost:4000
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Your Name / Site Title"
+title                    : "Tianshu"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -24,37 +24,37 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Tianshu (Ian) Wen"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Photonics Design Engineer"
+  location         : "Santa Clara, CA"
+  employer         : "Applied Materials, Inc."
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "wts0835@gmail.com" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=K21VORoAAAAJ&hl"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0001-6532-0329"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  researchgate     : "https://www.researchgate.net/profile/Tianshu-Wen"
   scopus           : # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "https://github.com/wentianshu"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -63,7 +63,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/twen0106/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -84,9 +84,13 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
+  conference_proceedings:
+    title: 'Conference Proceedings'
+  workshop:
+    title: 'Workshop Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

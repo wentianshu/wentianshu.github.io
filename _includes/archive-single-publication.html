@@ -1,0 +1,29 @@
+{% include base_path %}
+{% comment %} Renders one publication from _data/publications.yml (variable: pub). Title links to paperurl. {% endcomment %}
+
+{% assign title = pub.title %}
+{% assign link_url = pub.paperurl | default: pub.link | default: "#" %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h2 class="archive__item-title" itemprop="headline">
+      <a href="{{ link_url }}">{{ title }}</a>
+    </h2>
+
+    {% if pub.venue %}
+    <p><i>{{ pub.venue }}</i>{% if pub.date %}, {{ pub.date | default: "1900-01-01" | date: "%Y" }}{% endif %}</p>
+    {% endif %}
+
+    {% if pub.excerpt %}
+    <p class="archive__item-excerpt" itemprop="description">{{ pub.excerpt | markdownify }}</p>
+    {% endif %}
+
+    {% if pub.citation and pub.bibtexurl %}
+      <p>Recommended citation: {{ pub.citation }}<br /><a href="{{ pub.bibtexurl }}">Download Bibtex</a></p>
+    {% elsif pub.citation %}
+      <p>Recommended citation: {{ pub.citation }}</p>
+    {% elsif pub.bibtexurl %}
+      <p><a href="{{ pub.bibtexurl }}">Download Bibtex</a></p>
+    {% endif %}
+  </article>
+</div>
