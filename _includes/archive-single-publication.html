@@ -10,6 +10,10 @@
       <a href="{{ link_url }}">{{ title }}</a>
     </h2>
 
+    {% if pub.authors %}
+    <p class="archive__item-authors">{{ pub.authors }}</p>
+    {% endif %}
+
     {% if pub.venue %}
     <p><i>{{ pub.venue }}</i>{% if pub.date %}, {{ pub.date | default: "1900-01-01" | date: "%Y" }}{% endif %}</p>
     {% endif %}
