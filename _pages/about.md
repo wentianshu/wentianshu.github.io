@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Tianshu Wen has been a photonics design engineer at Applied Materials, Inc., since 2024. Previously, he interned at Lorentz Solution, Inc (2024) and Lawrence Livermore National Laboratory (2023). He received his Ph.D. in Aerospace and Mechanical Engineering from the University of Notre Dame in 2024, where he was advised by Matthew J. Zahr. He also holds an M.S. in Applied Mathematics from the University of Notre Dame (2023), an M.S. in Mechanical Engineering from Washington University in St. Louis (2019), and a B.S. in Mechanical Engineering from Central Michigan University (2016). He specializes in numerical optimization, model order reduction, deep learning, computational fluid dynamics, and finite element methods.
+Tianshu Wen has been a photonics design engineer at Applied Materials, Inc., since 2025. Previously, he interned at Lorentz Solution, Inc (2024) and Lawrence Livermore National Laboratory (2023). He received his Ph.D. in Aerospace and Mechanical Engineering from the University of Notre Dame in 2024, where he was advised by Matthew J. Zahr. He also holds an M.S. in Applied Mathematics from the University of Notre Dame (2023), an M.S. in Mechanical Engineering from Washington University in St. Louis (2019), and a B.S. in Mechanical Engineering from Central Michigan University (2016). He specializes in numerical optimization, model order reduction, deep learning, computational fluid dynamics, and finite element methods.
 
 At Lorentz Solution, he implemented and optimized a block-accelerated direct solver for large-scale dense linear systems, achieving a ∼5× speedup over the Intel MKL library.
 
