@@ -50,7 +50,7 @@ At the University of Notre Dame, he developed a globally convergent method to ac
 <!-- <hr class="about__section-sep"> -->
 
 ## Experiences
-- Photonics Design Engineer, Applied Materials, Inc., 2024–present
+- Photonics Design Engineer, Applied Materials, Inc., 2025–present
 - R&D Intern, Lorentz Solution, Inc., 2024
 - Research Intern, Lawrence Livermore National Laboratory, 2023
 - Graduate Research Assistant, University of Notre Dame, 2019–2024
