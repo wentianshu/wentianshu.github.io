@@ -1,15 +1,25 @@
 # Conference proceedings. List newest first on the site.
 
-- title: "Paper Title Number 5, with math $$E=mc^2$$"
-  date: 2024-02-17
-  venue: "GitHub Journal of Bugs"
-  excerpt: "This paper is about a famous math equation, $$E=mc^2$$"
-  paperurl: "http://academicpages.github.io/files/paper3.pdf"
-  citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+- title: "An augmented Lagrangian trust-region method to accelerate equality-constrained shape optimization problems using model hyperreduction"
+  authors: "Tianshu Wen, Matthew J. Zahr"
+  date: Jan. 2023
+  venue: "AIAA SciTech 2023 Forum"
+  paperurl: "https://drive.google.com/file/d/1ZoBSLf4ezyEnw6rT2WwXkGbFBBJd9XeI/view"
 
-- title: "Paper Title Number 4"
-  date: 2024-02-17
-  venue: "GitHub Journal of Bugs"
-  excerpt: "This paper is about fixing template issue #693."
-  paperurl: "http://academicpages.github.io/files/paper3.pdf"
-  citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+- title: "Development of a new transitional flow model integrating the one-equation Wray-Agarwal turbulence model with an algebraic intermittency transport term"
+  authors: "Yan Xue, Tianshu Wen, Ramesh K. Agarwal"
+  date: Jul. 2021
+  venue: "AIAA Aviation 2021 Forum"
+  paperurl: "https://arc.aiaa.org/doi/abs/10.2514/6.2021-2712"
+
+- title: "Development of a One-Equation Algebraic Reynolds Stress Model based on k-kL Closure"
+  authors: "Tianshu Wen, Ramesh K. Agarwal"
+  date: Jun. 2019
+  venue: "AIAA Aviation 2019 Forum"
+  paperurl: "https://arc.aiaa.org/doi/abs/10.2514/6.2019-3325"
+
+- title: "A New Extension of Wray-Agarwal Wall Distance Free Turbulence Model to Rough Wall Flows"
+  authors: "Tianshu Wen, Ramesh K. Agarwal"
+  date: Jan. 2019
+  venue: "AIAA SciTech 2019 Forum"
+  paperurl: "https://arc.aiaa.org/doi/abs/10.2514/6.2019-1881"

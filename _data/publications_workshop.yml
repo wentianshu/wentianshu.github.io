@@ -1,8 +1,14 @@
 # Workshop papers. List newest first on the site.
 # Add entries with: title, date, venue, excerpt (optional), paperurl (optional), citation (optional), etc.
 # Example:
-# - title: "My Workshop Paper"
-#   date: 2024-06-01
-#   venue: "Workshop Name"
-#   paperurl: "https://..."
-[]
+- title: "Physics-informed reduced order model with conditional neural fields"
+  authors: "Minji Kim, Tianshu Wen, Kookjin Lee, Youngsoo Choi"
+  date: Dec. 2024
+  venue: "NeurIPS 2024 Workshop: Machine Learning and the Physical Sciences"
+  paperurl: "https://arxiv.org/pdf/2412.05233"
+
+- title: "Reduced-order modeling for parameterized PDEs via implicit neural representations"
+  authors: "Tianshu Wen, Kookjin Lee, Youngsoo Choi"
+  date: Nov. 2023
+  venue: "NeurIPS 2023 Workshop: Machine Learning and the Physical Sciences"
+  paperurl: "https://arxiv.org/pdf/2311.16410"

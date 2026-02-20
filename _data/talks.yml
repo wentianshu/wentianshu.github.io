@@ -1,0 +1,62 @@
+# All talks in one file. Order in this file = order on the Talks page (put newest first).
+# Fields: title, type (e.g. Talk, Tutorial, Conference proceedings talk), venue, date, location, excerpt (optional), link (optional URL for title)
+
+- title: "Reduced-order modeling for parameterized PDEs via implicit neural representations"
+  type: "Workshop poster"
+  venue: "NeurIPS 2023 Workshop on Machine Learning and the Physical Sciences"
+  date: 2023-12-15
+  location: "New Orleans, LA, United States"
+
+- title: "An augmented Lagrangian method to accelerate constrained optimization using hyperreduction"
+  type: "Conference"
+  venue: "International Council for Industrial and Applied Mathematics 2023"
+  date: 2023-08-25
+  location: "Tokyo, Japan"
+
+- title: "An augmented Lagrangian trust-region method to accelerate equality-constrained shape ptimization problems using model hyperreduction"
+  type: "Conference"
+  venue: "AIAA Science and Technology Forum and Exposition 2023"
+  date: 2023-01-27
+  location: "National Harbor, MD, United States"
+
+- title: "An augmented Lagrangian method to accelerate constrained optimization using hyperreduction"
+  type: "Conference"
+  venue: "International Council for Industrial and Applied Mathematics 2023"
+  date: 2023-08-25
+  location: "Tokyo, Japan"
+
+- title: "A globally convergent method to accelerate PDE-constrained optimization using on-thefly model reduction"
+  type: "Conference"
+  venue: "16th U.S. National Congress on Computational Mechanics"
+  date: 2021-07-25
+  location: "Virtual"
+
+- title: "An augmented Lagrangian method to accelerate constrained optimization using hyperreduction"
+  type: "Conference"
+  venue: "International Council for Industrial and Applied Mathematics 2023"
+  date: 2023-08-25
+  location: "Tokyo, Japan"
+
+- title: "A globally convergent method to accelerate PDE-constrained optimization using on-the-fly model reduction"
+  type: "Conference"
+  venue: "SIAM Conference on Computational Science and Engineering"
+  date: 2021-03-01
+  location: "Fort Worth, TX, United States"
+
+- title: "Development of a One-Equation Algebraic Reynolds Stress Model based on k-kL Closure"
+  type: "Conference"
+  venue: "AIAA Aviation 2019 Forum"
+  date: 2019-06-17
+  location: "Dallas, TX, United States"
+
+- title: "A new extension of Wray-Agarwal wall distance free turbulence model to rough wall flows"
+  type: "Conference"
+  venue: "AIAA Science and Technology Forum and Exposition 2019"
+  date: 2019-01-07
+  location: "San Diego, CA, United States"
+
+- title: "Road Load Simulator Fixture Improvement for Nexteer Automotive"
+  type: "Capstone presentation"
+  venue: "American Society for Engineering Education Poster Exhibition"
+  date: 2015-05-01
+  location: "Mount Pleasant, MI, United States"

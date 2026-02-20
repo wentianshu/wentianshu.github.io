@@ -1,0 +1,26 @@
+{% include base_path %}
+{% comment %} Renders one talk from _data/talks.yml (variable: talk). Title links to talk.link if set. {% endcomment %}
+
+{% assign title = talk.title %}
+{% assign link_url = talk.link | default: "#" %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h2 class="archive__item-title" itemprop="headline">
+      {% if talk.link %}
+        <a href="{{ link_url }}">{{ title }}</a>
+      {% else %}
+        {{ title }}
+      {% endif %}
+    </h2>
+    {% if talk.date %}
+      <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ talk.date | date: '%B %d, %Y' }}</p>
+    {% endif %}
+    {% if talk.venue %}
+      <p class="archive__item-excerpt" itemprop="description">{{ talk.type | default: "Talk" }}, {{ talk.venue }}, {{ talk.location }}</p>
+    {% endif %}
+    {% if talk.excerpt %}
+      <p class="archive__item-excerpt" itemprop="description">{{ talk.excerpt | markdownify }}</p>
+    {% endif %}
+  </article>
+</div>

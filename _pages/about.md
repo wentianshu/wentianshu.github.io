@@ -9,6 +9,12 @@ redirect_from:
 
 Tianshu Wen has been a photonics design engineer at Applied Materials, Inc., since 2024. Previously, he interned at Lorentz Solution, Inc (2024) and Lawrence Livermore National Laboratory (2023). He received his Ph.D. in Aerospace and Mechanical Engineering from the University of Notre Dame in 2024, where he was advised by Matthew J. Zahr. He also holds an M.S. in Applied Mathematics from the University of Notre Dame (2023), an M.S. in Mechanical Engineering from Washington University in St. Louis (2019), and a B.S. in Mechanical Engineering from Central Michigan University (2016). He specializes in numerical optimization, model order reduction, deep learning, computational fluid dynamics, and finite element methods.
 
+At Lorentz Solution, he implemented and optimized a block-accelerated direct solver for large-scale dense linear systems, achieving a ∼5× speedup over the Intel MKL library.
+
+At Lawrence Livermore National Laboratory (LLNL), he developed an implicit neural representation (INR) based reduced-order model for nonlinear PDEs, achieving a speedup of up to 1500× compared to using a full-order model.
+
+At the University of Notre Dame, he developed a globally convergent method to accelerate large-scale PDE-constrained optimization using on-the-fly model reduction, achieving a speedup of up to 18× compared to traditional optimization methods.
+
 <div class="about__two-col">
 
 <div class="about__two-col__item" markdown="1">
@@ -44,11 +50,11 @@ Tianshu Wen has been a photonics design engineer at Applied Materials, Inc., sin
 <!-- <hr class="about__section-sep"> -->
 
 ## Experiences
-- Photonics Design Engineer, Applied Materials, Inc., 2024 - present
+- Photonics Design Engineer, Applied Materials, Inc., 2024–present
 - R&D Intern, Lorentz Solution, Inc., 2024
 - Research Intern, Lawrence Livermore National Laboratory, 2023
-- Graduate Research Assistant, University of Notre Dame, 2019 - 2024
-- Graduate Research Assistant, Washington University in St. Louis, 2017 - 2019
+- Graduate Research Assistant, University of Notre Dame, 2019–2024
+- Graduate Research Assistant, Washington University in St. Louis, 2017–2019
 - Undergraduate Research Assistant, Central Michigan University, 2016
 
 <!-- Site-wide configuration
